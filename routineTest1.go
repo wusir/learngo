@@ -16,7 +16,7 @@ func routine(name string, delay time.Duration){
 	fmt.Println(name, "共执行 ", t1.Sub(t0))
 }
 
-func main(){
+func main1(){
 	//生成随机种子
 	rand.Seed(time.Now().Unix())
 
